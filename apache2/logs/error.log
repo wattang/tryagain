@@ -466,3 +466,49 @@
 [Sun Feb 09 14:39:02.348184 2020] [core:notice] [pid 4644:tid 704] AH00094: Command line: 'C:\\Bitnami\\MOODLE~1.2-1\\apache2\\bin\\httpd.exe -d C:/Bitnami/moodle-3.7.2-1/apache2 -f C:\\Bitnami\\MOODLE~1.2-1\\apache2\\conf\\httpd.conf'
 [Sun Feb 09 14:39:02.381267 2020] [mpm_winnt:notice] [pid 4644:tid 704] AH00418: Parent: Created child process 21476
 [Sun Feb 09 14:39:02.872095 2020] [ssl:warn] [pid 21476:tid 660] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 14:39:02.931097 2020] [ssl:warn] [pid 21476:tid 660] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 14:39:02.967100 2020] [mpm_winnt:notice] [pid 21476:tid 660] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 09 15:53:57.115838 2020] [mpm_winnt:notice] [pid 4644:tid 704] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Feb 09 15:53:59.130863 2020] [mpm_winnt:notice] [pid 21476:tid 660] AH00364: Child: All worker threads have exited.
+[Sun Feb 09 15:53:59.195150 2020] [mpm_winnt:notice] [pid 4644:tid 704] AH00430: Parent: Child process 21476 exited successfully.
+[Sun Feb 09 15:54:31.252313 2020] [ssl:warn] [pid 5224:tid 796] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 15:54:31.343943 2020] [ssl:warn] [pid 5224:tid 796] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 15:54:31.586635 2020] [mpm_winnt:notice] [pid 5224:tid 796] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 configured -- resuming normal operations
+[Sun Feb 09 15:54:31.586635 2020] [mpm_winnt:notice] [pid 5224:tid 796] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Feb 09 15:54:31.586635 2020] [core:notice] [pid 5224:tid 796] AH00094: Command line: 'C:\\Bitnami\\MOODLE~1.2-1\\apache2\\bin\\httpd.exe -d C:/Bitnami/moodle-3.7.2-1/apache2 -f C:\\Bitnami\\MOODLE~1.2-1\\apache2\\conf\\httpd.conf'
+[Sun Feb 09 15:54:31.596748 2020] [mpm_winnt:notice] [pid 5224:tid 796] AH00418: Parent: Created child process 7920
+[Sun Feb 09 15:54:37.683654 2020] [ssl:warn] [pid 7920:tid 524] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 15:54:37.789357 2020] [ssl:warn] [pid 7920:tid 524] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 15:54:38.507815 2020] [mpm_winnt:notice] [pid 7920:tid 524] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 09 17:02:36.238384 2020] [mpm_winnt:notice] [pid 5224:tid 796] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Feb 09 17:02:38.264557 2020] [mpm_winnt:notice] [pid 7920:tid 524] AH00364: Child: All worker threads have exited.
+[Sun Feb 09 17:02:38.296998 2020] [mpm_winnt:notice] [pid 5224:tid 796] AH00430: Parent: Child process 7920 exited successfully.
+[Sun Feb 09 17:03:03.593627 2020] [ssl:warn] [pid 4944:tid 592] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 17:03:03.674502 2020] [ssl:warn] [pid 4944:tid 592] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 17:03:03.847026 2020] [mpm_winnt:notice] [pid 4944:tid 592] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 configured -- resuming normal operations
+[Sun Feb 09 17:03:03.847026 2020] [mpm_winnt:notice] [pid 4944:tid 592] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Feb 09 17:03:03.847026 2020] [core:notice] [pid 4944:tid 592] AH00094: Command line: 'C:\\Bitnami\\MOODLE~1.2-1\\apache2\\bin\\httpd.exe -d C:/Bitnami/moodle-3.7.2-1/apache2 -f C:\\Bitnami\\MOODLE~1.2-1\\apache2\\conf\\httpd.conf'
+[Sun Feb 09 17:03:03.847026 2020] [mpm_winnt:notice] [pid 4944:tid 592] AH00418: Parent: Created child process 8048
+[Sun Feb 09 17:03:04.540034 2020] [ssl:warn] [pid 8048:tid 628] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 17:03:04.578384 2020] [ssl:warn] [pid 8048:tid 628] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 17:03:04.609647 2020] [mpm_winnt:notice] [pid 8048:tid 628] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 09 19:44:16.132963 2020] [ssl:warn] [pid 11852:tid 692] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 19:44:16.211081 2020] [core:warn] [pid 11852:tid 692] AH00098: pid file C:/Bitnami/moodle-3.7.2-1/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Feb 09 19:44:16.211081 2020] [ssl:warn] [pid 11852:tid 692] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 19:44:16.617321 2020] [mpm_winnt:notice] [pid 11852:tid 692] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 configured -- resuming normal operations
+[Sun Feb 09 19:44:16.617321 2020] [mpm_winnt:notice] [pid 11852:tid 692] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Feb 09 19:44:16.617321 2020] [core:notice] [pid 11852:tid 692] AH00094: Command line: 'C:\\Bitnami\\MOODLE~1.2-1\\apache2\\bin\\httpd.exe -d C:/Bitnami/moodle-3.7.2-1/apache2 -f C:\\Bitnami\\MOODLE~1.2-1\\apache2\\conf\\httpd.conf'
+[Sun Feb 09 19:44:16.632947 2020] [mpm_winnt:notice] [pid 11852:tid 692] AH00418: Parent: Created child process 16532
+[Sun Feb 09 19:44:17.125238 2020] [ssl:warn] [pid 16532:tid 608] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 19:44:17.187737 2020] [ssl:warn] [pid 16532:tid 608] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 19:44:17.234610 2020] [mpm_winnt:notice] [pid 16532:tid 608] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 10 12:53:46.228363 2020] [mpm_winnt:notice] [pid 11852:tid 692] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 10 12:53:48.247310 2020] [mpm_winnt:notice] [pid 16532:tid 608] AH00364: Child: All worker threads have exited.
+[Mon Feb 10 12:53:48.300777 2020] [mpm_winnt:notice] [pid 11852:tid 692] AH00430: Parent: Child process 16532 exited successfully.
+[Tue Feb 11 07:15:22.804115 2020] [ssl:warn] [pid 5628:tid 696] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 07:15:22.885393 2020] [ssl:warn] [pid 5628:tid 696] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 07:15:23.109507 2020] [mpm_winnt:notice] [pid 5628:tid 696] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 configured -- resuming normal operations
+[Tue Feb 11 07:15:23.109507 2020] [mpm_winnt:notice] [pid 5628:tid 696] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Tue Feb 11 07:15:23.109507 2020] [core:notice] [pid 5628:tid 696] AH00094: Command line: 'C:\\Bitnami\\MOODLE~1.2-1\\apache2\\bin\\httpd.exe -d C:/Bitnami/moodle-3.7.2-1/apache2 -f C:\\Bitnami\\MOODLE~1.2-1\\apache2\\conf\\httpd.conf'
+[Tue Feb 11 07:15:23.119696 2020] [mpm_winnt:notice] [pid 5628:tid 696] AH00418: Parent: Created child process 5800
+[Tue Feb 11 07:15:24.457270 2020] [ssl:warn] [pid 5800:tid 704] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
